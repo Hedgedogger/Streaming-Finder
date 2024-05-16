@@ -80,7 +80,7 @@ function loadStreamingScript(imdbId, button) {
     if (!document.getElementById('streamingScript')) {
         const script = document.createElement('script');
         script.id = 'streamingScript';
-        script.src = 'streaming.js';
+        script.src = 'https://raw.githubusercontent.com/Hedgedogger/Streaming-Finder/main/streaming.js';
         document.body.appendChild(script);
         script.onload = () => fetchStreamingAvailability(imdbId, button);
     } else {
