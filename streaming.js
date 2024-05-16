@@ -8,7 +8,7 @@ async function fetchStreamingAvailability(imdbId, button) {
         const response = await fetch(apiUrl, {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': rapidApiKey,
+                'x-rapidapi-key': 'cef1f28104msh73c944b20f697efp17df2ajsn1c104209af02',
                 'x-rapidapi-host': streamingApiHost
             }
         });
